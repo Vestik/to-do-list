@@ -4,7 +4,7 @@ let vlozeny = document.getElementById('vloz');                          //promě
 
 pridat.addEventListener('click', function(){                            //kliknutí zapne funkci
     var paragraph = document.createElement('p');                        //vytvoří paragraf
-    paragraph.classList.add('paragraph-styling');                       //přidá css k paragrafu
+    paragraph.classList.add('paragraph-styl');                       //přidá css k paragrafu
 
     paragraph.innerText = vlozeny.value;                                //value bude rovna zadanému textu
 
@@ -20,3 +20,4 @@ pridat.addEventListener('click', function(){                            //kliknu
     })
 })
 
+    
