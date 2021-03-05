@@ -9,20 +9,22 @@
 
 </head>
 <body>
-    <h1>To-Do List</h1>
-    <button id="navod" onclick="navod()">Návod</button>
-    <script>
-    function navod() {alert("zadáš text stisknutím + přidáš do to-do listu \n\njednim kliknutím splníš úkol \ndvěma kliknutímy odstraníš úkol");}
-    </script>
-    <div class="namesti">
-        <input id="vloz" type="text"><button id="tlacitko">+</button>
+    <div class = "main">
+        <div class = "hlava">
+            <div class = "nadpis">To-Do List</div>
         
+                <div class="navodStred">
+                    <button id="navod" onclick="navod()">Návod</button>
+                </div>
+                <div class="namesti">
+                    <input id="vloz" type="text"><button id="tlacitko">+</button>
+                </div>
+            </div>
         <div class="ukoly" id="ukoly">
-        </div>
-
+        </div> 
     </div>
     
-    <script src="main.js"></script>
+<script src="main.js"></script>
 
 </body>
 </html>
